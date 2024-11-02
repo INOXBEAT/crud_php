@@ -12,6 +12,11 @@
 <body>
   <h1 class="text-center p-3">Hola Mundo</h1>
 
+  <?php
+    include 'modelo/conexion.php';
+    include 'controlador/registro_persona.php';
+  ?>
+
   <div class="container-fluid row">
 
   <!-- FORMULARIO -->
@@ -61,7 +66,7 @@
       <button
         type="submit"
         class="btn btn-primary"
-        name="registrar"
+        name="btnregistrar"
         value="ok">Registrar
       </button>
     </form>
