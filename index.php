@@ -24,7 +24,7 @@
       <h3 class="text-center text-secondary p-3">Registro de personas</h3>
       <div class="mb-3">
         <label
-          for="exampleInputEmail1" class="form-label">Nombre de la persona</label>
+           class="form-label">Nombre de la persona</label>
         <input
           type="text"
           class="form-control"
@@ -32,7 +32,7 @@
       </div>
       <div class="mb-3">
         <label
-          for="exampleInputEmail1" class="form-label">Apellido de la persona</label>
+           class="form-label">Apellido de la persona</label>
         <input
           type="text"
           class="form-control"
@@ -40,7 +40,7 @@
       </div>
       <div class="mb-3">
         <label
-          for="exampleInputEmail1" class="form-label">DNI de la persona</label>
+           class="form-label">DNI de la persona</label>
         <input
           type="text"
           class="form-control"
@@ -48,7 +48,7 @@
       </div>
       <div class="mb-3">
         <label
-          for="exampleInputEmail1" class="form-label">Fecha de nacimiento</label>
+           class="form-label">Fecha de nacimiento</label>
         <input
           type="date"
           class="form-control"
@@ -56,7 +56,7 @@
       </div>
       <div class="mb-3">
         <label
-          for="exampleInputEmail1" class="form-label">Correo</label>
+           class="form-label">Correo</label>
         <input
           type="email"
           class="form-control"
