@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <h1 class="text-center p-3">Hola Mundo</h1>
+  <h1 class="text-center p-3">CRUD con PHP, MySQL y Bootstrap</h1>
 
   <!-- INCLUYE EL MODELO Y CONTROLADORES -->
   <?php
