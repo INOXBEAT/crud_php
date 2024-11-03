@@ -50,4 +50,3 @@ if (!empty($_POST['btnregistrar'])) {
         Campos incompletos</div>'; 
     }
 }
-?>

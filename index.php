@@ -26,7 +26,7 @@
 
     <!-- FORMULARIO DE REGISTRO -->
     <form class="col-4 p-3" method="POST">
-      <h3 class="text-center text-secondary p-3">Registro de personas</h3>
+      <h3 class="text-center alert alert-secondary p-3">Registro de personas</h3>
       
       <!-- Campo para el nombre -->
       <div class="mb-3">
@@ -97,7 +97,7 @@
 
               <td>
                 <!-- Botones para editar y eliminar -->
-                <a href="" class="btn btn-small btn-warning"><i class="fa-solid fa-pen-to-square"></i></a>
+                <a href="editar_persona.php?id=<?= $datos->id_persona ?>" class="btn btn-small btn-warning"><i class="fa-solid fa-pen-to-square"></i></a>
                 <a href="" class="btn btn-small btn-danger"><i class="fa-solid fa-trash"></i></a>
               </td>
             </tr>
