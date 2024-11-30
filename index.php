@@ -14,12 +14,21 @@
 </head>
 
 <body>
+
+  <script>
+      function eliminar() {
+        var respuesta=confirm("Estás seguro que deseas eliminar?");
+        return respuesta
+      }
+  </script>
+
   <h1 class="text-center p-3">CRUD con PHP, MySQL y Bootstrap</h1>
 
   <!-- INCLUYE EL MODELO Y CONTROLADORES -->
   <?php
     include 'modelo/conexion.php'; // Conexión a la base de datos
     include 'controlador/registro_persona.php'; // Controlador para el registro de personas
+    include "controlador/eliminar_persona.php";
   ?>
 
   <div class="container-fluid row">
@@ -98,7 +107,7 @@
               <td>
                 <!-- Botones para editar y eliminar -->
                 <a href="editar_persona.php?id=<?= $datos->id_persona ?>" class="btn btn-small btn-warning"><i class="fa-solid fa-pen-to-square"></i></a>
-                <a href="" class="btn btn-small btn-danger"><i class="fa-solid fa-trash"></i></a>
+                <a onclick="return eliminar()" href="index.php?id=<?=$datos->id_persona ?>" class="btn btn-small btn-danger"><i class="fa-solid fa-trash"></i></a>
               </td>
             </tr>
           <?php } ?>
